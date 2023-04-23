@@ -1,0 +1,32 @@
+# Loader metadata
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "MIT License"
+issueTrackerURL = ""
+
+[[mods]]
+modId = "lambdynlights"
+version = "0.9.1"
+displayName = "Lamb Dynamic Lights"
+credits = "todo"
+authors = "llamastein"
+description = '''
+	Added variables to tweak how dark the world can get, and supports a simple server-side enforcement, etc
+	
+	[[I give thanks to my Lord and Savior Jesus Christ for setting me free! John 8:36]]
+'''
+
+# Dependencies
+[[dependencies.lambdynlights]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[40.1.73,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.lambdynlights]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.18,1.18.2]"
+    ordering = "AFTER"
+    side = "BOTH"

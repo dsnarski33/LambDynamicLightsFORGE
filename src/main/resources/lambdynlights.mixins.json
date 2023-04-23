@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev2.lambdaurora.lambdynlights.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "BlockEntityTypeMixin",
+    "ClientWorldMixin",
+    "CommonWorldRendererMixin",
+    "EntityTypeMixin",
+    "DebugHudMixin",
+    "EntityRendererMixin",
+    "MinecraftClientMixin",
+    "WorldMixin",
+    "lightsource.AbstractDecorationEntityMixin",
+    "lightsource.AbstractMinecartEntityMixin",
+    "lightsource.BlockEntityMixin",
+    "lightsource.EntityMixin",
+    "lightsource.ExplosiveProjectileEntityMixin",
+    "lightsource.LivingEntityMixin",
+    "lightsource.PlayerEntityMixin",
+    "lightsource.TntEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "lambdynlights.refmap.json"
+}
